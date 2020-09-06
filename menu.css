@@ -1,0 +1,101 @@
+/****** Base styles********/
+* {
+	 box-sizing: border-box;
+	 margin-right: auto;
+     margin-left: auto;
+}
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
+	font-style: italic;
+	font-size: 120%;
+	margin-right: auto;
+    margin-left: auto;
+}	
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+	margin-bottom: 20px;
+	color: #660000;   /*maroon*/ 
+}
+div {
+	background-color: #2baae5;	/*blue*/
+	opacity: 0.8; 
+	border: 1px solid black;
+	padding: 40px;
+	padding-bottom: 10px;
+	position: relative;
+
+}	
+
+p {
+    text-align: center;
+	font-size: 1.25em;	
+	border: 1px solid black;
+	width: 35%;
+	position: absolute;
+	top: 0; right: 0;
+	margin: 0px;
+}
+#dish1 {
+	background-color: #ffc368; /*yellow*/	
+}
+#dish2 {
+	background-color: #ffbb99; /*bej*/
+}
+#dish3 {
+	background-color: #70db70; /*greenish*/
+    
+}
+		/****Desktop *****/
+@media (min-width: 992px) {
+	
+div {
+	width: 30%;
+	float: left;
+	margin: 15px; 
+	}
+}
+		/********Tablet********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+#container1, #container2 {
+ 	width: 45%;
+ 	margin: 15px;
+ }
+#container1 {
+ 	float: left;
+ }
+#container2 {
+ 	float: right; 
+ }
+#container3 {
+	clear: both; 
+	margin: 15px;
+}
+#dish3 {
+	width: 20%;
+}
+
+}
+
+/****Mobile phone******/
+@media (max-width: 767px) {
+
+	div {
+		margin: 20px;
+		width: 90%;
+		margin-right: auto;
+        margin-left: auto;
+	}
+}	
+
+
+
+
+
+
+
+
+
+
