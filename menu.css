@@ -1,15 +1,13 @@
 /****** Base styles********/
 * {
 	 box-sizing: border-box;
-	 margin-right: auto;
-     margin-left: auto;
+	 
 }
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande";
 	font-style: italic;
 	font-size: 120%;
-	margin-right: auto;
-    margin-left: auto;
+	
 }	
 h1 {
 	text-align: center;
